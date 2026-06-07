@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" aria-hidden="true">
+  <defs>
+    <linearGradient id="wSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fff8fa"/>
+      <stop offset="100%" stop-color="#f5e8ec"/>
+    </linearGradient>
+    <linearGradient id="wFloor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f0dde3"/>
+      <stop offset="100%" stop-color="#e8ccd4"/>
+    </linearGradient>
+    <linearGradient id="wPillar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d4819a"/>
+      <stop offset="50%" stop-color="#f5e0e8"/>
+      <stop offset="100%" stop-color="#d4819a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="560" fill="url(#wSky)"/>
+  <rect y="420" width="800" height="140" fill="url(#wFloor)"/>
+  <ellipse cx="400" cy="420" rx="340" ry="28" fill="#8b1538" opacity="0.08"/>
+
+  <!-- Hall arch & ceiling -->
+  <path d="M80 120 Q400 20 720 120 L720 180 Q400 90 80 180 Z" fill="#8b1538" opacity="0.12"/>
+  <path d="M120 140 Q400 60 680 140" fill="none" stroke="#a83255" stroke-width="2" opacity="0.35"/>
+  <path d="M100 100 Q400 0 700 100" fill="none" stroke="#d4819a" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- Pillars -->
+  <rect x="130" y="160" width="36" height="260" rx="4" fill="url(#wPillar)" opacity="0.55"/>
+  <rect x="634" y="160" width="36" height="260" rx="4" fill="url(#wPillar)" opacity="0.55"/>
+  <rect x="250" y="200" width="24" height="220" rx="3" fill="url(#wPillar)" opacity="0.35"/>
+  <rect x="526" y="200" width="24" height="220" rx="3" fill="url(#wPillar)" opacity="0.35"/>
+
+  <!-- Toran / floral garland -->
+  <path d="M160 130 Q220 170 280 130 Q340 90 400 130 Q460 90 520 130 Q580 170 640 130" fill="none" stroke="#a83255" stroke-width="3" opacity="0.45"/>
+  <circle cx="220" cy="145" r="8" fill="#d4819a" opacity="0.5"/>
+  <circle cx="400" cy="125" r="10" fill="#8b1538" opacity="0.4"/>
+  <circle cx="580" cy="145" r="8" fill="#d4819a" opacity="0.5"/>
+
+  <!-- Mandapam -->
+  <ellipse cx="400" cy="300" rx="120" ry="14" fill="#8b1538" opacity="0.15"/>
+  <path d="M280 300 L320 220 L480 220 L520 300 Z" fill="none" stroke="#8b1538" stroke-width="2" opacity="0.5"/>
+  <line x1="320" y1="220" x2="320" y2="300" stroke="#a83255" stroke-width="1.5" opacity="0.45"/>
+  <line x1="480" y1="220" x2="480" y2="300" stroke="#a83255" stroke-width="1.5" opacity="0.45"/>
+  <path d="M320 220 Q400 190 480 220" fill="none" stroke="#8b1538" stroke-width="2" opacity="0.55"/>
+  <path d="M295 300 Q400 318 505 300" fill="none" stroke="#c9a962" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- Sacred fire -->
+  <ellipse cx="400" cy="318" rx="18" ry="6" fill="#5c0d25" opacity="0.35"/>
+  <path d="M400 290 Q388 310 400 330 Q412 310 400 290" fill="#a83255" opacity="0.55"/>
+  <path d="M400 295 Q395 308 400 322 Q405 308 400 295" fill="#d4819a" opacity="0.65"/>
+
+  <!-- Seating rows hint -->
+  <ellipse cx="200" cy="390" rx="70" ry="12" fill="#8b1538" opacity="0.06"/>
+  <ellipse cx="600" cy="390" rx="70" ry="12" fill="#8b1538" opacity="0.06"/>
+
+  <text x="400" y="510" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#8b1538" opacity="0.45">Kalyana Mandapam</text>
+</svg>

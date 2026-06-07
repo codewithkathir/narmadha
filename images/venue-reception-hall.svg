@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" aria-hidden="true">
+  <defs>
+    <linearGradient id="rSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a1218"/>
+      <stop offset="55%" stop-color="#5c0d25"/>
+      <stop offset="100%" stop-color="#8b1538"/>
+    </linearGradient>
+    <linearGradient id="rFloor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#6b2840"/>
+      <stop offset="100%" stop-color="#4a1528"/>
+    </linearGradient>
+    <radialGradient id="rGlow" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#f5c8d4" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#8b1538" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="560" fill="url(#rSky)"/>
+  <rect width="800" height="560" fill="url(#rGlow)"/>
+  <rect y="400" width="800" height="160" fill="url(#rFloor)"/>
+  <ellipse cx="400" cy="400" rx="320" ry="24" fill="#000" opacity="0.15"/>
+
+  <!-- Hall structure -->
+  <path d="M90 130 Q400 40 710 130 L710 200 Q400 110 90 200 Z" fill="#fff" opacity="0.08"/>
+  <path d="M110 150 Q400 70 690 150" fill="none" stroke="#f5c8d4" stroke-width="1.5" opacity="0.35"/>
+
+  <!-- Pillars -->
+  <rect x="140" y="170" width="32" height="230" rx="3" fill="#f5e0e8" opacity="0.2"/>
+  <rect x="628" y="170" width="32" height="230" rx="3" fill="#f5e0e8" opacity="0.2"/>
+  <rect x="260" y="210" width="22" height="190" rx="2" fill="#f5e0e8" opacity="0.12"/>
+  <rect x="518" y="210" width="22" height="190" rx="2" fill="#f5e0e8" opacity="0.12"/>
+
+  <!-- String lights -->
+  <path d="M150 120 Q250 160 350 120 Q450 80 550 120 Q650 160 650 120" fill="none" stroke="#f5c8d4" stroke-width="1" opacity="0.5"/>
+  <circle cx="200" cy="138" r="4" fill="#ffe8a0" opacity="0.85"/>
+  <circle cx="300" cy="128" r="4" fill="#ffe8a0" opacity="0.85"/>
+  <circle cx="400" cy="118" r="5" fill="#fff5c8" opacity="0.9"/>
+  <circle cx="500" cy="128" r="4" fill="#ffe8a0" opacity="0.85"/>
+  <circle cx="600" cy="138" r="4" fill="#ffe8a0" opacity="0.85"/>
+
+  <!-- Stage / couple area -->
+  <rect x="280" y="260" width="240" height="120" rx="4" fill="#fff" opacity="0.06"/>
+  <path d="M280 260 Q400 230 520 260" fill="none" stroke="#d4819a" stroke-width="1.5" opacity="0.45"/>
+  <ellipse cx="400" cy="310" rx="50" ry="8" fill="#f5c8d4" opacity="0.15"/>
+
+  <!-- Round tables -->
+  <ellipse cx="180" cy="350" rx="45" ry="14" fill="#fff" opacity="0.08"/>
+  <ellipse cx="620" cy="350" rx="45" ry="14" fill="#fff" opacity="0.08"/>
+  <ellipse cx="280" cy="430" rx="40" ry="12" fill="#fff" opacity="0.06"/>
+  <ellipse cx="520" cy="430" rx="40" ry="12" fill="#fff" opacity="0.06"/>
+
+  <!-- Chandelier -->
+  <line x1="400" y1="80" x2="400" y2="140" stroke="#c9a962" stroke-width="1" opacity="0.4"/>
+  <ellipse cx="400" cy="150" rx="40" ry="10" fill="#ffe8a0" opacity="0.25"/>
+  <circle cx="400" cy="155" r="6" fill="#fff5c8" opacity="0.5"/>
+
+  <text x="400" y="510" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#f5c8d4" opacity="0.55">Reception Hall</text>
+</svg>
